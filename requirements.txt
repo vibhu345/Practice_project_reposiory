@@ -1,4 +1,5 @@
 #version bhi likh sakte hai by numpy==version
 pandas 
 numpy 
+scikit-learn
 # -e.

@@ -14,11 +14,7 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
     
-try:
-    a=1/0
-except Exception as e:
-    logging.info("First custom exception")
-    raise CustomException(e,sys)
 
-if __name__=="__main__":
-    logging.info("Custom Exception started") # doubt yeh hai ki yeh wala log kyu nhi likha gya log file mein 
+
+#if __name__=="__main__":
+   # logging.info("Custom Exception started") # doubt yeh hai ki yeh wala log kyu nhi likha gya log file mein 
